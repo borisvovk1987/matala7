@@ -44,7 +44,7 @@ std::ostream& operator<<(std::ostream& out,const BoardRow &row)
     {
           for(int i=0;i<row.m_rowSize;i++)
         {
-            out<<row.m_boardRow[i]<<" ";
+            out<<row.m_boardRow[i];
         }
         std::cout<<"\n";
         return out;
