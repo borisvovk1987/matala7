@@ -59,7 +59,7 @@ std::ostream& operator<<(std::ostream& out,const Board &board)
 {
     for(int i=0;i<board.m_boardSize;i++)
     {
-        out<<board.m_board[i];
+        out<<board.m_board[i]<<"\n";
     }
     return out;
 }
