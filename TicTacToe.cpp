@@ -36,7 +36,7 @@ void TicTacToe::play(Player& xPlayer ,Player& oPlayer)
     // keep the loop until both the cases are true:
     // first case is that the number of player smaller then the number of tiiles
     // second is that the winner wasn't bean found
-    while(numberOfPlayes!=(m_board.size()*m_board.size()) && !foundAWinner)
+    while(numberOfPlayes<(m_board.size()*m_board.size()) && !foundAWinner)
     {
 
         // X Player turn
