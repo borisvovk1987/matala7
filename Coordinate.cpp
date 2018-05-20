@@ -1,6 +1,6 @@
 #include"Coordinate.h"
 
-Coordinate::Coordinate(int x=0,int y=0):m_x(x),m_y(y)
+Coordinate::Coordinate(int x,int y):m_x(x),m_y(y)
 {
 }
 Coordinate::~Coordinate()
