@@ -9,7 +9,7 @@ class Coordinate
 
 public:
 
-    Coordinate(int x,int y);
+    Coordinate(unsigned int x,unsigned int y);
     ~Coordinate();
 
 
