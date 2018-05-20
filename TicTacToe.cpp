@@ -97,7 +97,7 @@ void TicTacToe::play(Player& xPlayer ,Player& oPlayer)
 
 
         }
-        numberOfPlayes!=(m_board.size()*m_board.size())
+       if( numberOfPlayes!=(m_board.size()*m_board.size()))
         {
          m_winner=&oPlayer;   
             
