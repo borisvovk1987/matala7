@@ -8,7 +8,7 @@ class Coordinate
     int m_y;
 
 public:
-
+    Coordinate(int x,int y);
     Coordinate(unsigned int x,unsigned int y);
     ~Coordinate();
 
